@@ -53,6 +53,7 @@ $route['default_controller'] = 'logic';
 
 $route['budget-application'] = 'budget';
 $route['budget-application/(:any)'] = 'budget/$1';
+$route['budget-application/(:any)/(:any)'] = 'budget/$1/$2';
 
 
 $route['404_override'] = '';
