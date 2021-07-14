@@ -30,4 +30,9 @@ class M_income extends CI_Model {
     return $this->db->delete($this->income, ['id' => $id]);
   }
 
+  public function getSaldo()
+  {
+    return $this->db->select('SUM(jumlah) saldo')->from($this->income)->get();
+  }
+
 }

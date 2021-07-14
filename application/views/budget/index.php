@@ -8,6 +8,6 @@
 </head>
 <body>
     <a href="<?=base_url('budget-application/income')?>">Pemasukan</a>
-    <a href="<?=base_url('budget-application/transaction')?>">Pengeluaran</a>
+    <a href="<?=base_url('budget-application/transactions')?>">Pengeluaran</a>
 </body>
 </html>
